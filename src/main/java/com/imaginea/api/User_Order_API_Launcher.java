@@ -12,6 +12,11 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 @EnableAsync
 public class User_Order_API_Launcher {
 
+	
+	/**
+	 * This method will initialize our spring boot application
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		SpringApplication.run(User_Order_API_Launcher.class, args);
 	}

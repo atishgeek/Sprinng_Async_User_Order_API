@@ -8,7 +8,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 import com.imaginea.api.dto.UserDto;
-import com.imaginea.api.service.UserDetailsService;
 
 @Component
 public class AppRunner implements CommandLineRunner{
